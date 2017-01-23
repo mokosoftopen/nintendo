@@ -55,7 +55,7 @@
             "Children": [
               {
                 "FontSize": 40,
-                "LabelText": "エラーが発生しました。",
+                "LabelText": "エラーが発生しました。   ver.1.0.1",
                 "OutlineColor": {
                   "G": 0,
                   "B": 0
@@ -68,11 +68,10 @@
                 "ShadowOffsetX": 2.0,
                 "ShadowOffsetY": -2.0,
                 "AnchorPoint": {
-                  "ScaleX": 0.5,
                   "ScaleY": 0.5
                 },
                 "Position": {
-                  "X": 261.0,
+                  "X": 41.0,
                   "Y": 579.0
                 },
                 "Scale": {
@@ -86,21 +85,21 @@
                 },
                 "IconVisible": false,
                 "PrePosition": {
-                  "X": 0.2719,
+                  "X": 0.0427,
                   "Y": 0.9047
                 },
                 "PreSize": {
-                  "X": 0.4573,
+                  "X": 0.6521,
                   "Y": 0.0703
                 },
-                "LeftMargin": 41.5,
-                "RightMargin": 479.5,
+                "LeftMargin": 41.0,
+                "RightMargin": 293.0,
                 "TopMargin": 38.5,
                 "BottomMargin": 556.5,
                 "Tag": 4,
                 "ActionTag": 615860074,
                 "Size": {
-                  "X": 439.0,
+                  "X": 626.0,
                   "Y": 45.0
                 },
                 "Name": "Text_1",
@@ -183,6 +182,8 @@
             "ColorVector": {
               "ScaleY": 1.0
             },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
             "TouchEnable": true,
             "AnchorPoint": {},
             "Position": {
@@ -237,7 +238,7 @@
             "CColor": {},
             "IconVisible": false,
             "PrePosition": {
-              "X": 0.7813,
+              "X": 0.7812,
               "Y": 0.4273
             },
             "PreSize": {
@@ -273,6 +274,8 @@
             "ColorVector": {
               "ScaleY": 1.0
             },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
             "TouchEnable": true,
             "AnchorPoint": {},
             "Position": {
@@ -438,18 +441,75 @@
             "ctype": "SpriteObjectData"
           },
           {
-            "FontSize": 14,
-            "ButtonText": "",
-            "TextColor": {
-              "R": 65,
-              "G": 65,
-              "B": 70
+            "FontSize": 100,
+            "ButtonText": "JUMP",
+            "TextColor": {},
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "btn_big_gray.png",
+              "Plist": ""
             },
             "Scale9Enable": true,
-            "Scale9OriginX": 15,
-            "Scale9OriginY": 6,
-            "Scale9Width": 11,
-            "Scale9Height": 8,
+            "Scale9OriginX": 40,
+            "Scale9OriginY": 40,
+            "Scale9Width": 12,
+            "Scale9Height": 12,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 480.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.5,
+              "Y": 0.2344
+            },
+            "LeftMargin": 480.0,
+            "TopMargin": 490.0,
+            "Tag": 17,
+            "ActionTag": 645954981,
+            "Size": {
+              "X": 480.0,
+              "Y": 150.0
+            },
+            "Name": "btn",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 100,
+            "ButtonText": "FIRE",
+            "TextColor": {},
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "btn_big_gray.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 40,
+            "Scale9OriginY": 40,
+            "Scale9Width": 12,
+            "Scale9Height": 12,
             "OutlineColor": {
               "G": 0,
               "B": 0
@@ -478,17 +538,109 @@
               "Y": 0.0
             },
             "PreSize": {
-              "X": 1.0,
-              "Y": 1.0
+              "X": 0.5,
+              "Y": 0.2344
             },
-            "Tag": 17,
-            "ActionTag": 645954981,
+            "RightMargin": 480.0,
+            "TopMargin": 490.0,
+            "Tag": 12,
+            "ActionTag": 1807385381,
             "Size": {
-              "X": 960.0,
-              "Y": 640.0
+              "X": 480.0,
+              "Y": 150.0
             },
-            "Name": "btn",
+            "Name": "btn_fire",
             "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "biru.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -200.0,
+              "Y": -124.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": -0.2083,
+              "Y": -0.1937
+            },
+            "PreSize": {
+              "X": 0.0812,
+              "Y": 0.2266
+            },
+            "LeftMargin": -239.0,
+            "RightMargin": 1121.0,
+            "TopMargin": 691.5,
+            "BottomMargin": -196.5,
+            "Tag": 13,
+            "ActionTag": 1254358526,
+            "Size": {
+              "X": 78.0,
+              "Y": 145.0
+            },
+            "Name": "biru_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "icon_error.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -81.0,
+              "Y": -88.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": -0.0844,
+              "Y": -0.1375
+            },
+            "PreSize": {
+              "X": 0.0417,
+              "Y": 0.0625
+            },
+            "LeftMargin": -101.0,
+            "RightMargin": 1021.0,
+            "TopMargin": 708.0,
+            "BottomMargin": -108.0,
+            "Tag": 15,
+            "ActionTag": 908423480,
+            "Size": {
+              "X": 40.0,
+              "Y": 40.0
+            },
+            "Name": "icon_error_3",
+            "ctype": "SpriteObjectData"
           }
         ],
         "Size": {
@@ -500,8 +652,11 @@
       },
       "UsedResources": [
         "bg1.png",
+        "biru.png",
+        "btn_big_gray.png",
         "gojira1.png",
         "gojira2.png",
+        "icon_error.png",
         "tower.png"
       ],
       "ctype": "GameFileData"

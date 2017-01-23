@@ -4,6 +4,8 @@ var bo_jump = false;
 var panel;
 var panela;
 var game_stop = false;
+var bo_fire = false;
+var fire;
 
 var GameLayer = cc.Layer.extend({
     sprite:null,
@@ -14,6 +16,7 @@ var GameLayer = cc.Layer.extend({
 
         bo_jump = false;
         game_stop = false;
+        bo_fire = false;
 
         /////////////////////////////
         // 2. add a menu item with "X" image, which is clicked to quit the program
@@ -63,9 +66,20 @@ var GameLayer = cc.Layer.extend({
 
             if(game_stop)return;
 
-            var bg = cc.Sprite.create("res/tower.png");
-            bg.setPosition(cc.p(-180, 270));
-            bg.setScale(0.8,0.8);
+            var bg;
+            if ( Math.floor(Math.random()*2) == 1 ) {
+                bg = cc.Sprite.create("res/tower.png");
+                bg.setAnchorPoint(cc.p(0.5,0.5));
+                bg.setPosition(cc.p(-180, 270));
+                bg.setScale(0.8,0.8);
+                bg.setTag(1);
+            } else {
+                bg = cc.Sprite.create("res/biru.png");
+                bg.setAnchorPoint(cc.p(0.5,0.5));
+                bg.setPosition(cc.p(-180, 300));
+                bg.setScale(1.5,1.5);
+                bg.setTag(2);
+            }
             panel.addChild(bg);
 
             bg.runAction(cc.Sequence.create(cc.MoveBy.create(3, cc.p(1500,0)), cc.CallFunc.create(function(){
@@ -100,6 +114,31 @@ var GameLayer = cc.Layer.extend({
             }
         }, this);
 
+        var btn_fire = scene.node.getChildByName("btn_fire");
+        btn_fire.addTouchEventListener(function(button,type){
+            if(type==ccui.Widget.TOUCH_BEGAN){
+
+                console.log("button");
+
+                if(!bo_fire){
+
+                    bo_fire = true;
+
+                    fire = cc.Sprite.create("res/icon_error.png");
+                    fire.setPosition(cc.p(gojira.getPosition().x-60, gojira.getPosition().y+70));
+                    this.addChild(fire);
+
+                    fire.runAction(cc.Sequence.create(cc.MoveBy.create(0.5, cc.p(-600, 0)), cc.CallFunc.create(function(){
+
+                        fire.removeFromParent();
+                        bo_fire = false; 
+
+                    }, this)));
+                }
+
+                    
+            }
+        }, this);
 
 
 
@@ -124,7 +163,15 @@ var GameScene = cc.Scene.extend({
         var gr = gojira.getBoundingBox();
         gr.width -= 120;
         gr.height -= 120;
-        console.log(gr);
+        //console.log(gr);
+
+        var fr;
+        if ( bo_fire ) {
+            fr = fire.getBoundingBox();
+            fr.width -= 10;
+            fr.height -= 10;
+
+        }
 
         
         for ( var i = 0; i < panel.getChildren().length; i++){
@@ -132,9 +179,10 @@ var GameScene = cc.Scene.extend({
             var t = panel.getChildren()[i];
             var tr = t.getBoundingBox();
             tr.width -= 10;
-            tr.height -= 50;
+            tr.height -= 30;
             if ( cc.rectIntersectsRect(gr, tr) ) {
 
+                console.log(gr);
                 console.log(tr);
                 this.unscheduleUpdate();
                 game_stop = true;
@@ -167,6 +215,26 @@ var GameScene = cc.Scene.extend({
 
 
             }
+
+            if ( bo_fire ) {
+                if ( t.getTag() == 2 ) {
+                    if ( cc.rectIntersectsRect(fr, tr) ) {
+                        var rp = t.getPosition();
+                        t.stopAllActions();
+                        t.removeFromParent();
+                        fire.stopAllActions();
+                        fire.removeFromParent();
+                        bo_fire = false;
+                        var p = cc.ParticleSystem.create("res/bomb.plist");
+                        p.setPosition(rp);
+                        p.setAutoRemoveOnFinish(true);
+                        this.addChild(p);
+                        p.resetSystem();
+                    }
+                }
+            }
+
+
 
         }
 

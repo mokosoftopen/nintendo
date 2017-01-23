@@ -4,9 +4,12 @@
     <Group ctype="ResourceGroup">
       <RootFolder Name=".">
         <Image Name="bg1.png" />
+        <Image Name="biru.png" />
+        <Image Name="btn_big_gray.png" />
         <Project Name="GameOverLayer.csd" Type="Layer" />
         <Image Name="gojira1.png" />
         <Image Name="gojira2.png" />
+        <Image Name="icon_error.png" />
         <Project Name="MainScene.csd" Type="Scene" />
         <Image Name="tower.png" />
       </RootFolder>

@@ -9,14 +9,14 @@
           <AbstractNodeData Name="Panelbg" ActionTag="1863540509" Tag="3" IconVisible="False" TouchEnable="True" ClipAble="False" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
             <Size X="960.0000" Y="640.0000" />
             <Children>
-              <AbstractNodeData Name="Text_1" ActionTag="615860074" Tag="4" IconVisible="False" LeftMargin="41.5000" RightMargin="479.5000" TopMargin="38.5000" BottomMargin="556.5000" FontSize="40" LabelText="エラーが発生しました。" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                <Size X="439.0000" Y="45.0000" />
-                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="261.0000" Y="579.0000" />
+              <AbstractNodeData Name="Text_1" ActionTag="615860074" Tag="4" IconVisible="False" LeftMargin="41.0000" RightMargin="293.0000" TopMargin="38.5000" BottomMargin="556.5000" FontSize="40" LabelText="エラーが発生しました。   ver.1.0.1" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                <Size X="626.0000" Y="45.0000" />
+                <AnchorPoint ScaleY="0.5000" />
+                <Position X="41.0000" Y="579.0000" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="0" G="0" B="0" />
-                <PrePosition X="0.2719" Y="0.9047" />
-                <PreSize X="0.4573" Y="0.0703" />
+                <PrePosition X="0.0427" Y="0.9047" />
+                <PreSize X="0.6521" Y="0.0703" />
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
@@ -43,7 +43,7 @@
             <EndColor A="255" R="255" G="255" B="255" />
             <ColorVector ScaleY="1.0000" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Panel" ActionTag="-1743839504" Tag="18" IconVisible="False" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" ctype="PanelObjectData">
+          <AbstractNodeData Name="Panel" ActionTag="-1743839504" Tag="18" IconVisible="False" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
             <Size X="960.0000" Y="640.0000" />
             <AnchorPoint />
             <Position />
@@ -67,7 +67,7 @@
             <FileData Type="Normal" Path="gojira1.png" Plist="" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Panela" ActionTag="-1564661917" Tag="19" IconVisible="False" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" ctype="PanelObjectData">
+          <AbstractNodeData Name="Panela" ActionTag="-1564661917" Tag="19" IconVisible="False" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
             <Size X="960.0000" Y="640.0000" />
             <AnchorPoint />
             <Position />
@@ -113,17 +113,53 @@
             <FileData Type="Normal" Path="bg1.png" Plist="" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="btn" ActionTag="645954981" Tag="17" IconVisible="False" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="6" BottomEage="6" Scale9OriginX="15" Scale9OriginY="6" Scale9Width="11" Scale9Height="8" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
-            <Size X="960.0000" Y="640.0000" />
+          <AbstractNodeData Name="btn" ActionTag="645954981" Tag="17" IconVisible="False" LeftMargin="480.0000" TopMargin="490.0000" TouchEnable="True" FontSize="100" ButtonText="JUMP" Scale9Enable="True" LeftEage="40" RightEage="40" TopEage="40" BottomEage="40" Scale9OriginX="40" Scale9OriginY="40" Scale9Width="12" Scale9Height="12" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+            <Size X="480.0000" Y="150.0000" />
+            <AnchorPoint />
+            <Position X="480.0000" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.5000" />
+            <PreSize X="0.5000" Y="0.2344" />
+            <TextColor A="255" R="255" G="255" B="255" />
+            <NormalFileData Type="Normal" Path="btn_big_gray.png" Plist="" />
+            <OutlineColor A="255" R="255" G="0" B="0" />
+            <ShadowColor A="255" R="110" G="110" B="110" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="btn_fire" ActionTag="1807385381" Tag="12" IconVisible="False" RightMargin="480.0000" TopMargin="490.0000" TouchEnable="True" FontSize="100" ButtonText="FIRE" Scale9Enable="True" LeftEage="40" RightEage="40" TopEage="40" BottomEage="40" Scale9OriginX="40" Scale9OriginY="40" Scale9Width="12" Scale9Height="12" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+            <Size X="480.0000" Y="150.0000" />
             <AnchorPoint />
             <Position />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition />
-            <PreSize X="1.0000" Y="1.0000" />
-            <TextColor A="255" R="65" G="65" B="70" />
+            <PreSize X="0.5000" Y="0.2344" />
+            <TextColor A="255" R="255" G="255" B="255" />
+            <NormalFileData Type="Normal" Path="btn_big_gray.png" Plist="" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="biru_1" ActionTag="1254358526" Tag="13" IconVisible="False" LeftMargin="-239.0000" RightMargin="1121.0000" TopMargin="691.5000" BottomMargin="-196.5000" ctype="SpriteObjectData">
+            <Size X="78.0000" Y="145.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="-200.0000" Y="-124.0000" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="-0.2083" Y="-0.1937" />
+            <PreSize X="0.0812" Y="0.2266" />
+            <FileData Type="Normal" Path="biru.png" Plist="" />
+            <BlendFunc Src="1" Dst="771" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="icon_error_3" ActionTag="908423480" Tag="15" IconVisible="False" LeftMargin="-101.0000" RightMargin="1021.0000" TopMargin="708.0000" BottomMargin="-108.0000" ctype="SpriteObjectData">
+            <Size X="40.0000" Y="40.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="-81.0000" Y="-88.0000" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="-0.0844" Y="-0.1375" />
+            <PreSize X="0.0417" Y="0.0625" />
+            <FileData Type="Normal" Path="icon_error.png" Plist="" />
+            <BlendFunc Src="770" Dst="771" />
           </AbstractNodeData>
         </Children>
       </ObjectData>
