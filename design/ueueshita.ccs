@@ -1,0 +1,15 @@
+<Solution>
+  <PropertyGroup Name="ueueshita" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Image Name="bg1.png" />
+        <Project Name="GameOverLayer.csd" Type="Layer" />
+        <Image Name="gojira1.png" />
+        <Image Name="gojira2.png" />
+        <Project Name="MainScene.csd" Type="Scene" />
+        <Image Name="tower.png" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

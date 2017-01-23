@@ -1,0 +1,511 @@
+{
+  "ID": "a2ee0952-26b5-49ae-8bf9-4f1d6279b798",
+  "Version": "2.3.4",
+  "Name": "MainScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "ClipAble": false,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 245,
+              "G": 245,
+              "B": 245
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 3,
+            "Children": [
+              {
+                "FontSize": 40,
+                "LabelText": "エラーが発生しました。",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 261.0,
+                  "Y": 579.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2719,
+                  "Y": 0.9047
+                },
+                "PreSize": {
+                  "X": 0.4573,
+                  "Y": 0.0703
+                },
+                "LeftMargin": 41.5,
+                "RightMargin": 479.5,
+                "TopMargin": 38.5,
+                "BottomMargin": 556.5,
+                "Tag": 4,
+                "ActionTag": 615860074,
+                "Size": {
+                  "X": 439.0,
+                  "Y": 45.0
+                },
+                "Name": "Text_1",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "ただいまサイトが大変混雑しています。しばらく待ってから、再度アクセスしてください。",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 453.0,
+                  "Y": 520.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4719,
+                  "Y": 0.8125
+                },
+                "PreSize": {
+                  "X": 0.8469,
+                  "Y": 0.0359
+                },
+                "LeftMargin": 46.5,
+                "RightMargin": 100.5,
+                "TopMargin": 108.5,
+                "BottomMargin": 508.5,
+                "Tag": 5,
+                "ActionTag": -1551194562,
+                "Size": {
+                  "X": 813.0,
+                  "Y": 23.0
+                },
+                "Name": "Text_1_0",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 1863540509,
+            "Size": {
+              "X": 960.0,
+              "Y": 640.0
+            },
+            "Name": "Panelbg",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 0,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 18,
+            "ActionTag": -1743839504,
+            "Size": {
+              "X": 960.0,
+              "Y": 640.0
+            },
+            "Name": "Panel",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "gojira1.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 750.0,
+              "Y": 273.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7813,
+              "Y": 0.4273
+            },
+            "PreSize": {
+              "X": 0.1906,
+              "Y": 0.2219
+            },
+            "LeftMargin": 658.5,
+            "RightMargin": 118.5,
+            "TopMargin": 295.5,
+            "BottomMargin": 202.5,
+            "Tag": 6,
+            "ActionTag": 1580178141,
+            "Size": {
+              "X": 183.0,
+              "Y": 142.0
+            },
+            "Name": "gojira",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 0,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 19,
+            "ActionTag": -1564661917,
+            "Size": {
+              "X": 960.0,
+              "Y": 640.0
+            },
+            "Name": "Panela",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "gojira2.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -57.0,
+              "Y": -141.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": -0.0594,
+              "Y": -0.2211
+            },
+            "PreSize": {
+              "X": 0.1906,
+              "Y": 0.2219
+            },
+            "LeftMargin": -148.5,
+            "RightMargin": 925.5,
+            "TopMargin": 710.5,
+            "BottomMargin": -212.5,
+            "Tag": 7,
+            "ActionTag": -836696382,
+            "Size": {
+              "X": 183.0,
+              "Y": 142.0
+            },
+            "Name": "gojira2_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "tower.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -285.0,
+              "Y": -118.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": -0.2969,
+              "Y": -0.1852
+            },
+            "PreSize": {
+              "X": 0.0396,
+              "Y": 0.2172
+            },
+            "LeftMargin": -304.0,
+            "RightMargin": 1226.0,
+            "TopMargin": 689.0,
+            "BottomMargin": -188.0,
+            "Tag": 8,
+            "ActionTag": 704602456,
+            "Size": {
+              "X": 38.0,
+              "Y": 139.0
+            },
+            "Name": "tower_3",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "bg1.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -156.0,
+              "Y": -157.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": -0.1625,
+              "Y": -0.2453
+            },
+            "PreSize": {
+              "X": 0.625,
+              "Y": 0.25
+            },
+            "LeftMargin": -456.0,
+            "RightMargin": 816.0,
+            "TopMargin": 717.0,
+            "BottomMargin": -237.0,
+            "Tag": 16,
+            "ActionTag": -410877162,
+            "Size": {
+              "X": 600.0,
+              "Y": 160.0
+            },
+            "Name": "bg1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 6,
+            "Scale9Width": 11,
+            "Scale9Height": 8,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 17,
+            "ActionTag": 645954981,
+            "Size": {
+              "X": 960.0,
+              "Y": 640.0
+            },
+            "Name": "btn",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 960.0,
+          "Y": 640.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "bg1.png",
+        "gojira1.png",
+        "gojira2.png",
+        "tower.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}
