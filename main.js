@@ -69,7 +69,19 @@ cc.game.onStart = function(){
     cc.view.resizeWithBrowserSize(true);
     //load resources
     cc.LoaderScene.preload(g_resources, function () {
+
+
+        cc.audioEngine.setMusicVolume(0.1);
+        cc.audioEngine.setEffectsVolume(0.5);
+        cc.audioEngine.playMusic("res/ningojira.mp3", true);
+
+
+
         cc.director.runScene(new GameScene());
+
+        
+
+
     }, this);
 };
 cc.game.run();

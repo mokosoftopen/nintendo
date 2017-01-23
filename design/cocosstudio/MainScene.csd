@@ -9,7 +9,18 @@
           <AbstractNodeData Name="Panelbg" ActionTag="1863540509" Tag="3" IconVisible="False" TouchEnable="True" ClipAble="False" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
             <Size X="960.0000" Y="640.0000" />
             <Children>
-              <AbstractNodeData Name="Text_1" ActionTag="615860074" Tag="4" IconVisible="False" LeftMargin="41.0000" RightMargin="293.0000" TopMargin="38.5000" BottomMargin="556.5000" FontSize="40" LabelText="エラーが発生しました。   ver.1.0.1" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+              <AbstractNodeData Name="Text_2" ActionTag="-977471050" Tag="15" IconVisible="False" LeftMargin="798.5000" RightMargin="14.5000" TopMargin="59.5000" BottomMargin="557.5000" FontSize="20" LabelText="sound by ペドロ" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                <Size X="147.0000" Y="23.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="872.0000" Y="569.0000" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="0" G="0" B="0" />
+                <PrePosition X="0.9083" Y="0.8891" />
+                <PreSize X="0.1531" Y="0.0359" />
+                <OutlineColor A="255" R="255" G="0" B="0" />
+                <ShadowColor A="255" R="110" G="110" B="110" />
+              </AbstractNodeData>
+              <AbstractNodeData Name="Text_1" ActionTag="615860074" Tag="4" IconVisible="False" LeftMargin="41.0000" RightMargin="293.0000" TopMargin="38.5000" BottomMargin="556.5000" FontSize="40" LabelText="エラーが発生しました。   ver.1.0.2" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
                 <Size X="626.0000" Y="45.0000" />
                 <AnchorPoint ScaleY="0.5000" />
                 <Position X="41.0000" Y="579.0000" />

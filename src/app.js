@@ -103,6 +103,9 @@ var GameLayer = cc.Layer.extend({
 
                     bo_jump = true;
 
+
+                    cc.audioEngine.playEffect("res/jump.mp3");
+
                     gojira.runAction(cc.Sequence.create(cc.JumpBy.create(0.5, cc.p(0,0), 150, 1), cc.CallFunc.create(function(){
 
                         bo_jump = false;
@@ -127,6 +130,8 @@ var GameLayer = cc.Layer.extend({
                     fire = cc.Sprite.create("res/icon_error.png");
                     fire.setPosition(cc.p(gojira.getPosition().x-60, gojira.getPosition().y+70));
                     this.addChild(fire);
+
+                    cc.audioEngine.playEffect("res/shoot.mp3");
 
                     fire.runAction(cc.Sequence.create(cc.MoveBy.create(0.5, cc.p(-600, 0)), cc.CallFunc.create(function(){
 
@@ -225,6 +230,7 @@ var GameScene = cc.Scene.extend({
                         fire.stopAllActions();
                         fire.removeFromParent();
                         bo_fire = false;
+                        cc.audioEngine.playEffect("res/fire.mp3");
                         var p = cc.ParticleSystem.create("res/bomb.plist");
                         p.setPosition(rp);
                         p.setAutoRemoveOnFinish(true);

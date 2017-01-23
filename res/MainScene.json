@@ -54,8 +54,61 @@
             "Tag": 3,
             "Children": [
               {
+                "FontSize": 20,
+                "LabelText": "sound by ペドロ",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 872.0,
+                  "Y": 569.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9083,
+                  "Y": 0.8891
+                },
+                "PreSize": {
+                  "X": 0.1531,
+                  "Y": 0.0359
+                },
+                "LeftMargin": 798.5,
+                "RightMargin": 14.5,
+                "TopMargin": 59.5,
+                "BottomMargin": 557.5,
+                "Tag": 15,
+                "ActionTag": -977471050,
+                "Size": {
+                  "X": 147.0,
+                  "Y": 23.0
+                },
+                "Name": "Text_2",
+                "ctype": "TextObjectData"
+              },
+              {
                 "FontSize": 40,
-                "LabelText": "エラーが発生しました。   ver.1.0.1",
+                "LabelText": "エラーが発生しました。   ver.1.0.2",
                 "OutlineColor": {
                   "G": 0,
                   "B": 0
